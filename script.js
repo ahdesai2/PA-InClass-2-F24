@@ -23,7 +23,7 @@ function showImage(letter) {
   const hideButton = document.createElement("button");
   hideButton.innerText = "Hide Result";
   hideButton.className = "hide-button";
-  hideButton.onclick = ('Hide button clicked'); {
+  hideButton.onclick = () => {
     container.innerHTML = "";
   };
   container.appendChild(hideButton);
